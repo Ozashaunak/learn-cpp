@@ -1,0 +1,33 @@
+
+
+Usecases for Calculator Application:
+
+1. User clicks on the application---->CalCulator.
+2. Than he sees following output on click:
+   Select type of Operations:
+   1. Arithematic Operations(Select 1)
+   2. Trigonometric Operations (Select b)
+   3.Logarithmic Operations
+   4.Exponentials Operations
+  
+3. User clicks Arithematic Operations. Following usecases are supported for that:
+    1. Select for Addition
+    2. Select for Subtraction.
+    3.Select for multiplication
+    4.Select for Division
+    
+4. User click Trigonometric Operation. Following usecases are supported for trigonometric operations:
+    1.Select for Sine function
+    2.Select for Cosine function.
+    3.Select for Tan function.
+    4.Select for hyperbolic Sine funtion
+    5.So on.
+
+5. User clicks Logarithmic Operations.Following usescases are supported.
+    1.Selct for natural log function.
+    2.Select for base 10 log function.
+
+6. User clicks Exponential Operations.Following usescases are supported.
+    1.Select for exponential function.
+    2. Select for power function.
+    3.Select for root function etc.
