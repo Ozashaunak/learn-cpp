@@ -1,3 +1,13 @@
+// @<COPYRIGHT_START>@
+// ===============================================
+// Copyright 2020- Shaunak Oza
+// This Calculator project was done as intern assignment.
+// ===============================================
+/*==================================================================================================
+File description for IO.cpp:
+This file handles users input and output.
+=================================================================================================*/
+
 #include<iostream>
 #include<math.h>
 #include<conio.h>
