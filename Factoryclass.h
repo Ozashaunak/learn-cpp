@@ -5,11 +5,8 @@
 enum op_type{TRIGNO,LOG,GEN,INVALID};
 class Factory
 {
-	public:
-		AbstractCalc *getop(op_type type);
-		
+  public:
+  AbstractCalc *getop(op_type type);
 };
-
 #endif
-
 
