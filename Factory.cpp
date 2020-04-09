@@ -1,3 +1,13 @@
+// @<COPYRIGHT_START>@
+// ===============================================
+// Copyright 2020- Shaunak Oza
+// This Calculator project was done as intern assignment.
+// ===============================================
+/*==================================================================================================
+File description for Factory.cpp:
+This file handles users Factory class.Factory pattern is used to create instances for different classes.
+=================================================================================================*/
+
 #include<iostream>
 #include<math.h>
 #include<conio.h>
