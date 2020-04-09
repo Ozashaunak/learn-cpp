@@ -20,11 +20,14 @@ char letter;
     IO *io=new IO;
     cout<<"//Calculator Program Version 01-Shaunak Oza"<<endl;
 	cout<<"\n\n\t\t\t\t SCIENTIFIC CALCULATOR."<<endl;
+	do
+	{
 	io->HandleIO();
 	cout <<"\n\nDo you want to perform another operation?"<<endl;
 	cout<<"\n1.Yes\n"<<endl;
 	cout<<"2.No"<<endl;
 	letter=getche();
+	}
 	
         while(letter=='1')
 	{ 
