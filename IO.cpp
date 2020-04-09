@@ -17,7 +17,7 @@ This file handles users input and output.
 using namespace std;
 void IO::HandleIO()
 {
-  cout<<"Select operation:"<<endl;
+  cout<<"\nSelect operation:"<<endl;
   cout<<"\t\t1.Trignometric Operations"<<endl;
   cout<<"\t\t2.Logarithmic Operations"<<endl;
   cout<<"\t\t3.Arithematic Operations"<<endl;
@@ -27,7 +27,7 @@ void IO::HandleIO()
       	case '1':
       		{
 	          AbstractCalc *cal=calfactory->getop(TRIGNO);
-                  cout<<"Choose Operation:"<<endl;
+                  cout<<"\nChoose Operation:"<<endl;
       		  cout<<"\t\t1.Sin"<<endl;
       		  cout<<"\t\t2.Cos"<<endl;
       		  cout<<"\t\t3.Tan"<<endl;
@@ -64,7 +64,7 @@ void IO::HandleIO()
       	case'2':
       	   {
 		AbstractCalc *cal=calfactory->getop(LOG);
-      		cout<<"Choose Operation:"<<endl;
+      		cout<<"\nChoose Operation:"<<endl;
       		cout<<"\t\t1.natural log"<<endl;
       		cout<<"\t\t2.Base 10 Log"<<endl;
       		key2= getche();
@@ -87,7 +87,7 @@ void IO::HandleIO()
       	case'3':
       		{
 	          AbstractCalc *cal=calfactory->getop(GEN);
-      		  cout<<"Choose Operation:"<<endl;
+      		  cout<<"\nChoose Operation:"<<endl;
       		  cout<<"\t\t1.Addition"<<endl;
       		  cout<<"\t\t2.subtraction"<<endl;
       		  cout<<"\t\t3.Multiplication"<<endl;
