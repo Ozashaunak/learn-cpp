@@ -1,3 +1,13 @@
+// @<COPYRIGHT_START>@
+// ===============================================
+// Copyright 2020- Shaunak Oza
+// This Calculator project was done as intern assignment.
+// ===============================================
+/*==================================================================================================
+File description for AbstractCal.cpp:
+This file handles the base class AbstractCal from which different calculatio classes are derived
+=================================================================================================*/
+
 using namespace std;
 void GeneralCal::getdata()
 {
