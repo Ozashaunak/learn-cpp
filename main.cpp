@@ -6,29 +6,31 @@
 #include<iostream>
 using namespace std;
 int main()
-{
-	char letter;
+{ 
+char letter;
     IO *io=new IO;
-	cout<<"\t\t\t\t SCIENTIFIC CALCULATOR."<<endl;
+    cout<<"//Calculator Program Version 01-Shaunak Oza"<<endl;
+	cout<<"\n\n\t\t\t\t SCIENTIFIC CALCULATOR."<<endl;
 	io->HandleIO();
-	
 	cout <<"\n\nDo you want to perform another operation?"<<endl;
 	cout<<"\n1.Yes\n"<<endl;
-	cout<<"\n2.NO\n"<<endl;
+	cout<<"2.No"<<endl;
 	letter=getche();
-
-	if(letter=='1')
-	{
 	
-		io->HandleIO();
-		
+        while(letter=='1')
+	{ 
+	  io->HandleIO();
+	  cout <<"\n\nDo you want to perform another operation?"<<endl;
+	  cout<<"\n1.Yes"<<endl;
+	  cout<<"2.No"<<endl;
+	  letter=getche();
 	}
+}
+
 	
 
-else if(letter=='2')
-	exit(0);
 
 	
 			  
 	
-}
+
