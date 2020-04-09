@@ -4,7 +4,7 @@ void GeneralCal::getdata()
 	cout<<"\nEnter the first number:"<<endl;
 	cin>>a;
 	cout<<"Enter the second number:"<<endl;
-    cin>>b;
+        cin>>b;
 }
 void GeneralCal::cAdd()
 {
