@@ -7,7 +7,7 @@ class IO
 public:
 	char key,key1,key2,key3;
 	Factory *calfactory= new Factory();
-	public:
-		void HandleIO();
+public:
+	void HandleIO();
 };
 #endif
