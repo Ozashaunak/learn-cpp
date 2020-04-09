@@ -1,3 +1,12 @@
+// @<COPYRIGHT_START>@
+// ===============================================
+// Copyright 2020- Shaunak Oza
+// This Calculator project was done as intern assignment.
+// ===============================================
+/*==================================================================================================
+File description for main.cpp:
+This file handles the main operations for user.
+=================================================================================================*/
 #include"AbstractCalc.h"
 #include"Factoryclass.h"
 #include"IO.h"
